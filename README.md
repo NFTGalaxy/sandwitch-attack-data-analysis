@@ -10,7 +10,7 @@ sample pool: 14,996
 
 sample rate: 21.84%
 
-# of addresses with loss in the sample pool: 3,856 (no contract addresses)
+addresses with loss in the sample pool: 3,856 (no contract addresses)
 
 loss percentage: 3,856/14,996=25.71%
 
@@ -21,8 +21,13 @@ estimated # of address with loss > 10 ETH for Uniswap V2 traders: 439 (around 2.
 ## Loss Range Estimation
 
 ### Max&Min Loss in Sample
+|     |              |             | 
+|-----|--------------|-------------| 
+| #   | max          | min         | 
+| usd | 1,035,494.73 | -320,164.72 | 
+| eth | 360.94       | -111.60     | 
 
-[Untitled](https://www.notion.so/c1c2fb0077dc4c4e94ee3e88daf95270)
+
 
 ### Loss Distribution
 
@@ -32,9 +37,25 @@ Histogram for loss in USD (only count loss under USD 100,000)
 
 most of the loss is under USD 10,000（nearly 92%）
 
-[estimated loss range in percentage(USD)](https://www.notion.so/ac93699f907c444faba7c49da165ccfd)
+|                     |       | 
+|---------------------|-------| 
+| usd_loss            | %     | 
+| (min, 0.0]          | 3.68  | 
+| (0.0, 10000.0]      | 88.56 | 
+| (10000.0, 50000.0]  | 6.85  | 
+| (50000.0, 100000.0] | 0.54  | 
+| (100000.0, max]     | 0.36  | 
 
-[estimated loss range in percentage(ETH)](https://www.notion.so/b0d2897bd5c048aeb970dd82c13692fc)
+
+|              |       | 
+|--------------|-------| 
+| eth_loss     | %     | 
+| (-min, 0.0]  | 3.68  | 
+| (0.0, 1.0]   | 76.34 | 
+| (1.0, 10.0]  | 17.48 | 
+| (10.0, 20.0] | 1.69  | 
+| (20.0, max]  | 0.80  | 
+
 
 ## Loss Transaction Count
 
@@ -42,7 +63,15 @@ most of the loss is under USD 10,000（nearly 92%）
 
 Histogram for transaction count with loss for each address
 
-[Estimated transaction with loss in each address](https://www.notion.so/172ce3afc265477ea76b9960395bfa08)
+|                |       | 
+|----------------|-------| 
+| sandwich_count | %     | 
+| (1, 5]         | 51.44 | 
+| (5, 10]        | 19.08 | 
+| (10, 50]       | 24.20 | 
+| (50, 100]      | 3.64  | 
+| (100, max]     | 1.63  | 
+
 
 ## Sample Loss Data:
 
