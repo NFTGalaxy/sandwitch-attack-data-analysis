@@ -15,7 +15,7 @@ addresses with loss in the sample pool: 16,560 (no contract addresses)
 
 ## Loss Range Estimation
 
-### Max&Min Loss in Sample
+### Max&Min Loss in Sample （1 eth: USD 3616.24）
 |     |              |             | 
 |-----|--------------|-------------| 
 | #   | max          | min         | 
@@ -88,7 +88,7 @@ addresses with loss in the sample pool: 4,673 (no contract addresses)
 
 ## Loss Range Estimation
 
-### Max&Min Loss in Sample
+### Max&Min Loss in Sample  （1 eth: USD 3616.24）
 |     |              |             | 
 |-----|--------------|-------------| 
 | #   | max          | min         | 
