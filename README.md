@@ -72,9 +72,9 @@ most of the loss is under USD 10,000（nearly 92%）
 
 
 
-## Sushiswap Address Loss Summary
+## SushiSwap Address Loss Summary
 
-total Uniswap trader address count for past 7 days (20210911-20210917): 18,219  (no contract addresses)
+total SushiSwap trader address count for past 7 days (20210911-20210917): 18,219  (no contract addresses)
 
 
 addresses with loss in the sample pool: 4,673 (no contract addresses)
